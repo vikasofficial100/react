@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ /* for CSS used chatgpt to get a good UI >_< */
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(circle at top, #1f2937 0%, #0f172a 70%);
+  color: #f8fafc;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  margin: 0 0 24px;
+  font-size: 3rem;
+  letter-spacing: 0.05em;
+  text-align: center;
+  color: #f8fafc;
+  text-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+.but {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+button {
+  border: none;
+  border-radius: 999px;
+  padding: 14px 28px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease,
+    background-color 0.2s ease, color 0.2s ease;
+  box-shadow: 0 12px 25px rgba(15, 23, 42, 0.25);
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 18px 28px rgba(15, 23, 42, 0.35);
+}
+
+button:active {
+  transform: translateY(0);
+}
+
+
+button:nth-child(1) {
+  background: #22c55e;
+  color: #0f172a;
+}
+
+button:nth-child(2) {
+  background: #f97316;
+  color: #ffffff;
+}
+
+button:nth-child(3) {
+  background: #ef4444;
+  color: #ffffff;
+}
